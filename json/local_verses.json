@@ -1,0 +1,39 @@
+{
+  "categories": {
+    "medo": [
+      {
+        "verse": "Filipenses 4:6-7",
+        "text_pt": "Não andem ansiosos por coisa nenhuma, mas em tudo, pela oração e súplicas, e com ação de graças, apresentem seus pedidos a Deus. E a paz de Deus, que excede todo o entendimento, guardará o coração e a mente de vocês em Cristo Jesus.",
+        "text_en": "Do not be anxious about anything, but in every situation, by prayer and petition, with thanksgiving, present your requests to God. And the peace of God, which transcends all understanding, will guard your hearts and your minds in Christ Jesus."
+      }
+    ],
+    "tristeza": [
+      {
+        "verse": "Salmos 34:18",
+        "text_pt": "Perto está o Senhor dos que têm o coração quebrantado e salva os de espírito abatido.",
+        "text_en": "The Lord is close to the brokenhearted and saves those who are crushed in spirit."
+      }
+    ],
+    "esperanca": [
+      {
+        "verse": "Jeremias 29:11",
+        "text_pt": "Porque eu sei os planos que tenho para vocês, diz o Senhor, planos de fazê-los prosperar e não de causar dano, planos de dar esperança e um futuro.",
+        "text_en": "For I know the plans I have for you, declares the Lord, plans to prosper you and not to harm you, plans to give you hope and a future."
+      }
+    ],
+    "amor": [
+      {
+        "verse": "João 3:16",
+        "text_pt": "Porque Deus tanto amou o mundo que deu o seu Filho Unigênito, para que todo o que nele crer não pereça, mas tenha a vida eterna.",
+        "text_en": "For God so loved the world that he gave his one and only Son, that whoever believes in him shall not perish but have eternal life."
+      }
+    ]
+  },
+  "daily_verses": [
+    {
+      "verse": "Mateus 6:26",
+      "text_pt": "Observem as aves do céu: não semeiam nem colhem nem ajuntam em celeiros; contudo, o Pai celestial as alimenta. Não têm vocês muito mais valor do que elas?",
+      "text_en": "Look at the birds of the air; they do not sow or reap or store away in barns, and yet your heavenly Father feeds them. Are you not much more valuable than they?"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "name": "Jesus é o Pão da Vida",
+  "short_name": "Promessas de Jesus",
+  "description": "Portal cristão com promessas bíblicas, chat espiritual e recursos de fé",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1a1611",
+  "theme_color": "#d4af37",
+  "orientation": "portrait-primary",
+  "categories": ["lifestyle", "spirituality", "education"],
+  "lang": "pt-BR",
+  "dir": "ltr",
+  "icons": [
+    {
+      "src": "assets/images/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "assets/images/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/images/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "assets/images/screenshot-desktop.webp",
+      "sizes": "1280x720",
+      "type": "image/webp",
+      "form_factor": "wide"
+    },
+    {
+      "src": "assets/images/screenshot-mobile.webp",
+      "sizes": "375x812",
+      "type": "image/webp",
+      "form_factor": "narrow"
+    }
+  ]
+}

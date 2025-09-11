@@ -1,0 +1,33 @@
+{
+  "site": {
+    "name": "Jesus é o Pão da Vida",
+    "domain": "promessasdejesus.vancouvertec.com.br",
+    "version": "1.0.0",
+    "default_language": "pt"
+  },
+  "apis": {
+    "bible_api_almeida": {
+      "enabled": false,
+      "base_url": "https://www.abibliadigital.com.br/api",
+      "key": "YOUR_API_KEY_HERE",
+      "cors_proxy": "https://cors-anywhere.herokuapp.com/"
+    },
+    "api_bible": {
+      "enabled": false,
+      "base_url": "https://api.scripture.api.bible/v1",
+      "key": "YOUR_API_KEY_HERE",
+      "bible_id": "de4e12af7f28f599-02"
+    },
+    "esv_api": {
+      "enabled": false,
+      "base_url": "https://api.esv.org/v3",
+      "key": "YOUR_ESV_TOKEN_HERE"
+    }
+  },
+  "features": {
+    "chat_enabled": true,
+    "quiz_enabled": true,
+    "newsletter_enabled": true,
+    "blog_enabled": true
+  }
+}

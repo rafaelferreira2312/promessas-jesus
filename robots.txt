@@ -1,0 +1,28 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://promessasdejesus.vancouvertec.com.br/sitemap.xml
+
+# Crawl-delay para proteger servidor
+Crawl-delay: 1
+
+# Bloquear arquivos de sistema
+Disallow: /json/submissions.json
+Disallow: /json/logs.txt
+Disallow: /scripts/
+Disallow: /*.backup$
+Disallow: /*.log$
+
+# Permitir recursos importantes
+Allow: /css/
+Allow: /js/
+Allow: /assets/
+Allow: /json/config.json
+Allow: /json/local_verses.json
+Allow: /json/blog_index.json
+
+# Informações do site
+# Site: Portal "Jesus é o Pão da Vida"
+# Contato: contato@vancouvertec.com.br
+# Tema: Promessas bíblicas e espiritualidade cristã
