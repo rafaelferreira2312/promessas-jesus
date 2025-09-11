@@ -30,7 +30,7 @@ function updateHeroWithRealImage() {
       <!-- Imagem principal do Jesus com pão -->
       <div class="jesus-image-wrapper">
         <img 
-          src="assets/images/jesus-pao.webp" 
+          src="assets/images/jesus-pao-2.webp" 
           alt="Jesus segurando o pão da vida"
           class="jesus-bread-image"
           loading="eager"
