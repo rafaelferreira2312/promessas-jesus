@@ -1,24 +1,211 @@
 {
   "categories": {
-    "medo": [
+    "ansiedade": [
       {
         "verse": "Filipenses 4:6-7",
         "text_pt": "Não andem ansiosos por coisa nenhuma, mas em tudo, pela oração e súplicas, e com ação de graças, apresentem seus pedidos a Deus. E a paz de Deus, que excede todo o entendimento, guardará o coração e a mente de vocês em Cristo Jesus.",
         "text_en": "Do not be anxious about anything, but in every situation, by prayer and petition, with thanksgiving, present your requests to God. And the peace of God, which transcends all understanding, will guard your hearts and your minds in Christ Jesus."
+      },
+      {
+        "verse": "Mateus 6:34",
+        "text_pt": "Portanto, não se preocupem com o amanhã, pois o amanhã se preocupará consigo mesmo. Basta a cada dia o seu próprio mal.",
+        "text_en": "Therefore do not worry about tomorrow, for tomorrow will worry about itself. Each day has enough trouble of its own."
+      },
+      {
+        "verse": "1 Pedro 5:7",
+        "text_pt": "Lancem sobre ele toda a sua ansiedade, porque ele tem cuidado de vocês.",
+        "text_en": "Cast all your anxiety on him because he cares for you."
       }
     ],
-    "tristeza": [
+    "medo": [
+      {
+        "verse": "Josué 1:9",
+        "text_pt": "Não foi isso que eu lhe ordenei? Seja forte e corajoso! Não se apavore nem desanime, pois o Senhor, o seu Deus, estará com você por onde você andar.",
+        "text_en": "Have I not commanded you? Be strong and courageous. Do not be afraid; do not be discouraged, for the Lord your God will be with you wherever you go."
+      },
+      {
+        "verse": "Isaías 41:10",
+        "text_pt": "Não tema, pois estou com você; não tenha medo, pois sou o seu Deus. Eu o fortalecerei e o ajudarei; eu o segurarei com a minha mão direita vitoriosa.",
+        "text_en": "So do not fear, for I am with you; do not be dismayed, for I am your God. I will strengthen you and help you; I will uphold you with my righteous right hand."
+      },
+      {
+        "verse": "Salmos 27:1",
+        "text_pt": "O Senhor é a minha luz e a minha salvação; de quem terei medo? O Senhor é o meu forte refúgio; de quem terei pavor?",
+        "text_en": "The Lord is my light and my salvation—whom shall I fear? The Lord is the stronghold of my life—of whom shall I be afraid?"
+      }
+    ],
+    "depressao": [
       {
         "verse": "Salmos 34:18",
         "text_pt": "Perto está o Senhor dos que têm o coração quebrantado e salva os de espírito abatido.",
         "text_en": "The Lord is close to the brokenhearted and saves those who are crushed in spirit."
+      },
+      {
+        "verse": "Salmos 42:11",
+        "text_pt": "Por que você está assim tão triste, ó minha alma? Por que está assim tão perturbada dentro de mim? Ponha a sua esperança em Deus! Ainda o louvarei; ele é o meu Salvador e o meu Deus.",
+        "text_en": "Why, my soul, are you downcast? Why so disturbed within me? Put your hope in God, for I will yet praise him, my Savior and my God."
+      },
+      {
+        "verse": "Isaías 61:3",
+        "text_pt": "Para dar aos que pranteiam em Sião uma bela coroa em lugar de cinzas, óleo de alegria em lugar de pranto, e manto de louvor em lugar de espírito deprimido.",
+        "text_en": "To bestow on them a crown of beauty instead of ashes, the oil of joy instead of mourning, and a garment of praise instead of a spirit of despair."
       }
     ],
-    "esperanca": [
+    "solidao": [
+      {
+        "verse": "Hebreus 13:5",
+        "text_pt": "Sejam livres do amor ao dinheiro e contentem-se com o que vocês têm, porque Deus mesmo disse: 'Nunca o deixarei, nunca o abandonarei'.",
+        "text_en": "Keep your lives free from the love of money and be content with what you have, because God has said, 'Never will I leave you; never will I forsake you.'"
+      },
+      {
+        "verse": "Salmos 68:6",
+        "text_pt": "Deus faz que o solitário viva em família e liberta os prisioneiros, trazendo-lhes prosperidade.",
+        "text_en": "God sets the lonely in families, he leads out the prisoners with singing."
+      },
+      {
+        "verse": "Isaías 43:2",
+        "text_pt": "Quando você atravessar as águas, eu estarei com você; quando você atravessar os rios, eles não o cobrirão. Quando você andar através do fogo, não se queimará; as chamas não o queimarão.",
+        "text_en": "When you pass through the waters, I will be with you; and when you pass through the rivers, they will not sweep over you. When you walk through the fire, you will not be burned; the flames will not set you ablaze."
+      }
+    ],
+    "estresse": [
+      {
+        "verse": "Mateus 11:28-30",
+        "text_pt": "Venham a mim, todos os que estão cansados e sobrecarregados, e eu lhes darei descanso. Tomem sobre vocês o meu jugo e aprendam de mim, pois sou manso e humilde de coração, e vocês encontrarão descanso para as suas almas. Pois o meu jugo é suave e o meu fardo é leve.",
+        "text_en": "Come to me, all you who are weary and burdened, and I will give you rest. Take my yoke upon you and learn from me, for I am gentle and humble in heart, and you will find rest for your souls. For my yoke is easy and my burden is light."
+      },
+      {
+        "verse": "Salmos 55:22",
+        "text_pt": "Entregue suas preocupações ao Senhor, e ele o sustentará; jamais permitirá que o justo venha a cair.",
+        "text_en": "Cast your cares on the Lord and he will sustain you; he will never let the righteous be shaken."
+      }
+    ],
+    "dinheiro": [
+      {
+        "verse": "Filipenses 4:19",
+        "text_pt": "O meu Deus suprirá todas as necessidades de vocês, de acordo com as suas gloriosas riquezas em Cristo Jesus.",
+        "text_en": "And my God will meet all your needs according to the riches of his glory in Christ Jesus."
+      },
+      {
+        "verse": "Malaquias 3:10",
+        "text_pt": "Tragam o dízimo todo ao depósito do templo, para que haja alimento em minha casa. Ponham-me à prova nisto, diz o Senhor dos Exércitos, e vejam se não vou abrir as comportas dos céus e derramar sobre vocês tantas bênçãos que nem terão lugar para guardá-las.",
+        "text_en": "Bring the whole tithe into the storehouse, that there may be food in my house. Test me in this, says the Lord Almighty, and see if I will not throw open the floodgates of heaven and pour out so much blessing that there will not be room enough to store it."
+      },
+      {
+        "verse": "Provérbios 3:9-10",
+        "text_pt": "Honre o Senhor com todos os seus recursos e com os primeiros frutos de todas as suas plantações; os seus celeiros ficarão plenamente cheios, e os seus tanques transbordarão de vinho.",
+        "text_en": "Honor the Lord with your wealth, with the firstfruits of all your crops; then your barns will be filled to overflowing, and your vats will brimming over with new wine."
+      }
+    ],
+    "trabalho": [
+      {
+        "verse": "Colossenses 3:23",
+        "text_pt": "Tudo o que fizerem, façam de todo o coração, como para o Senhor, e não para os homens.",
+        "text_en": "Whatever you do, work at it with all your heart, as working for the Lord, not for human masters."
+      },
+      {
+        "verse": "Provérbios 16:3",
+        "text_pt": "Consagre ao Senhor tudo o que você faz, e os seus planos serão bem-sucedidos.",
+        "text_en": "Commit to the Lord whatever you do, and he will establish your plans."
+      },
       {
         "verse": "Jeremias 29:11",
         "text_pt": "Porque eu sei os planos que tenho para vocês, diz o Senhor, planos de fazê-los prosperar e não de causar dano, planos de dar esperança e um futuro.",
         "text_en": "For I know the plans I have for you, declares the Lord, plans to prosper you and not to harm you, plans to give you hope and a future."
+      }
+    ],
+    "relacionamento": [
+      {
+        "verse": "1 Coríntios 13:4-7",
+        "text_pt": "O amor é paciente, o amor é bondoso. Não inveja, não se vangloria, não se orgulha. Não maltrata, não procura seus interesses, não se ira facilmente, não guarda rancor. O amor não se alegra com a injustiça, mas se alegra com a verdade. Tudo sofre, tudo crê, tudo espera, tudo suporta.",
+        "text_en": "Love is patient, love is kind. It does not envy, it does not boast, it is not proud. It does not dishonor others, it is not self-seeking, it is not easily angered, it keeps no record of wrongs. Love does not delight in evil but rejoices with the truth. It always protects, always trusts, always hopes, always perseveres."
+      },
+      {
+        "verse": "Eclesiastes 4:12",
+        "text_pt": "Um homem sozinho pode ser vencido, mas dois conseguem defender-se. Um cordão de três dobras não se rompe com facilidade.",
+        "text_en": "Though one may be overpowered, two can defend themselves. A cord of three strands is not quickly broken."
+      }
+    ],
+    "familia": [
+      {
+        "verse": "Josué 24:15",
+        "text_pt": "Mas, se não lhes agrada servir ao Senhor, escolham hoje a quem irão servir, se aos deuses que os seus antepassados serviram além do Eufrates, ou aos deuses dos amorreus, em cuja terra vocês estão vivendo. Mas eu e a minha família serviremos ao Senhor.",
+        "text_en": "But if serving the Lord seems undesirable to you, then choose for yourselves this day whom you will serve, whether the gods your ancestors served beyond the Euphrates, or the gods of the Amorites, in whose land you are living. But as for me and my household, we will serve the Lord."
+      },
+      {
+        "verse": "Efésios 6:2-3",
+        "text_pt": "Honra teu pai e tua mãe - este é o primeiro mandamento com promessa - para que tudo te corra bem e tenhas longa vida na terra.",
+        "text_en": "Honor your father and mother—which is the first commandment with a promise—so that it may go well with you and that you may enjoy long life on the earth."
+      }
+    ],
+    "saude": [
+      {
+        "verse": "Êxodo 15:26",
+        "text_pt": "Disse ele: Se vocês derem atenção ao Senhor, ao seu Deus, e fizerem o que ele aprova, se derem ouvidos aos seus mandamentos e obedecerem a todos os seus decretos, não trarei sobre vocês nenhuma das doenças que trouxe sobre os egípcios, pois eu sou o Senhor que os cura.",
+        "text_en": "He said, 'If you listen carefully to the Lord your God and do what is right in his eyes, if you pay attention to his commands and keep all his decrees, I will not bring on you any of the diseases I brought on the Egyptians, for I am the Lord, who heals you.'"
+      },
+      {
+        "verse": "3 João 1:2",
+        "text_pt": "Amado, desejo que você tenha boa saúde e que tudo lhe corra bem, assim como vai bem a sua alma.",
+        "text_en": "Dear friend, I pray that you may enjoy good health and that all may go well with you, even as your soul is getting along well."
+      },
+      {
+        "verse": "Jeremias 30:17",
+        "text_pt": "Mas eu lhe darei saúde novamente e curarei as suas feridas, declara o Senhor.",
+        "text_en": "But I will restore you to health and heal your wounds, declares the Lord."
+      }
+    ],
+    "perdao": [
+      {
+        "verse": "1 João 1:9",
+        "text_pt": "Se confessarmos os nossos pecados, ele é fiel e justo para perdoar os nossos pecados e nos purificar de toda injustiça.",
+        "text_en": "If we confess our sins, he is faithful and just and will forgive us our sins and purify us from all unrighteousness."
+      },
+      {
+        "verse": "Efésios 4:32",
+        "text_pt": "Sejam bondosos e compassivos uns para com os outros, perdoando-se mutuamente, assim como Deus os perdoou em Cristo.",
+        "text_en": "Be kind and compassionate to one another, forgiving each other, just as in Christ God forgave you."
+      },
+      {
+        "verse": "Mateus 6:14-15",
+        "text_pt": "Pois, se perdoarem as ofensas uns dos outros, o Pai celestial também lhes perdoará. Mas, se não perdoarem uns aos outros, o Pai celestial não lhes perdoará as ofensas.",
+        "text_en": "For if you forgive other people when they sin against you, your heavenly Father will also forgive you. But if you do not forgive others their sins, your Father will not forgive your sins."
+      }
+    ],
+    "paz": [
+      {
+        "verse": "João 14:27",
+        "text_pt": "Deixo-lhes a paz; a minha paz lhes dou. Não a dou como o mundo a dá. Não se perturbem os seus corações, nem tenham medo.",
+        "text_en": "Peace I leave with you; my peace I give you. I do not give to you as the world gives. Do not let your hearts be troubled and do not be afraid."
+      },
+      {
+        "verse": "Isaías 26:3",
+        "text_pt": "Tu guardarás em perfeita paz aquele cujo propósito é firme, porque ele confia em ti.",
+        "text_en": "You will keep in perfect peace those whose minds are steadfast, because they trust in you."
+      }
+    ],
+    "força": [
+      {
+        "verse": "Isaías 40:31",
+        "text_pt": "Mas aqueles que esperam no Senhor renovam as suas forças. Voam alto como águias; correm e não ficam exaustos, andam e não se cansam.",
+        "text_en": "But those who hope in the Lord will renew their strength. They will soar on wings like eagles; they will run and not grow weary, they will walk and not be faint."
+      },
+      {
+        "verse": "Filipenses 4:13",
+        "text_pt": "Tudo posso naquele que me fortalece.",
+        "text_en": "I can do all this through him who gives me strength."
+      }
+    ],
+    "esperanca": [
+      {
+        "verse": "Romanos 15:13",
+        "text_pt": "Que o Deus da esperança os encha de toda alegria e paz, por sua confiança nele, para que vocês transbordem de esperança, pelo poder do Espírito Santo.",
+        "text_en": "May the God of hope fill you with all joy and peace as you trust in him, so that you may overflow with hope by the power of the Holy Spirit."
+      },
+      {
+        "verse": "Lamentações 3:22-23",
+        "text_pt": "As misericórdias do Senhor jamais acabam, pois as suas compassões não têm fim. Renovam-se cada manhã; grande é a sua fidelidade!",
+        "text_en": "Because of the Lord's great love we are not consumed, for his compassions never fail. They are new every morning; great is your faithfulness!"
       }
     ],
     "amor": [
@@ -26,6 +213,167 @@
         "verse": "João 3:16",
         "text_pt": "Porque Deus tanto amou o mundo que deu o seu Filho Unigênito, para que todo o que nele crer não pereça, mas tenha a vida eterna.",
         "text_en": "For God so loved the world that he gave his one and only Son, that whoever believes in him shall not perish but have eternal life."
+      },
+      {
+        "verse": "1 João 4:19",
+        "text_pt": "Nós amamos porque ele nos amou primeiro.",
+        "text_en": "We love because he first loved us."
+      }
+    ],
+    "vicio": [
+      {
+        "verse": "1 Coríntios 10:13",
+        "text_pt": "Não sobreveio a vocês tentação que não fosse humana; mas Deus é fiel e não permitirá que vocês sejam tentados além do que podem suportar. Mas, quando forem tentados, ele lhes providenciará um escape, para que o possam suportar.",
+        "text_en": "No temptation has overtaken you except what is common to mankind. And God is faithful; he will not let you be tempted beyond what you can bear. But when you are tempted, he will also provide a way out so that you can endure it."
+      },
+      {
+        "verse": "2 Coríntios 5:17",
+        "text_pt": "Portanto, se alguém está em Cristo, é nova criação. As coisas antigas já passaram; eis que surgiram coisas novas!",
+        "text_en": "Therefore, if anyone is in Christ, the new creation has come: The old has gone, the new is here!"
+      }
+    ],
+    "crise": [
+      {
+        "verse": "Salmos 46:1",
+        "text_pt": "Deus é o nosso refúgio e a nossa fortaleza, auxílio sempre presente na adversidade.",
+        "text_en": "God is our refuge and strength, an ever-present help in trouble."
+      },
+      {
+        "verse": "2 Coríntios 4:17",
+        "text_pt": "Pois os nossos sofrimentos leves e momentâneos estão produzindo para nós uma glória eterna que pesa mais do que todos eles.",
+        "text_en": "For our light and momentary troubles are achieving for us an eternal glory that far outweighs them all."
+      }
+    ],
+    "fracasso": [
+      {
+        "verse": "Romanos 8:28",
+        "text_pt": "Sabemos que Deus age em todas as coisas para o bem daqueles que o amam, dos que foram chamados de acordo com o seu propósito.",
+        "text_en": "And we know that in all things God works for the good of those who love him, who have been called according to his purpose."
+      },
+      {
+        "verse": "Provérbios 24:16",
+        "text_pt": "Pois o justo, ainda que caia sete vezes, torna a levantar-se, mas os ímpios são derrubados pela calamidade.",
+        "text_en": "For though the righteous fall seven times, they rise again, but the wicked stumble when calamity strikes."
+      }
+    ],
+    "sonhos": [
+      {
+        "verse": "Habacuque 2:3",
+        "text_pt": "Pois a revelação aguarda um tempo determinado; ela fala do fim e não mentirá. Ainda que pareça demorar, espere por ela; pois certamente virá e não tardará.",
+        "text_en": "For the revelation awaits an appointed time; it speaks of the end and will not prove false. Though it linger, wait for it; it will certainly come and will not delay."
+      },
+      {
+        "verse": "Salmos 37:4",
+        "text_pt": "Deleite-se no Senhor, e ele atenderá aos desejos do seu coração.",
+        "text_en": "Take delight in the Lord, and he will give you the desires of your heart."
+      }
+    ],
+    "juventude": [
+      {
+        "verse": "1 Timóteo 4:12",
+        "text_pt": "Ninguém o despreze pelo fato de você ser jovem, mas seja um exemplo para os fiéis na palavra, no procedimento, no amor, na fé e na pureza.",
+        "text_en": "Don't let anyone look down on you because you are young, but set an example for the believers in speech, in conduct, in love, in faith and in purity."
+      },
+      {
+        "verse": "Eclesiastes 12:1",
+        "text_pt": "Lembre-se do seu Criador nos dias da sua juventude, antes que venham os dias difíceis e antes que cheguem os anos em que você dirá: 'Não tenho satisfação neles'.",
+        "text_en": "Remember your Creator in the days of your youth, before the days of trouble come and the years approach when you will say, 'I find no pleasure in them.'"
+      }
+    ],
+    "idosos": [
+      {
+        "verse": "Isaías 46:4",
+        "text_pt": "Mesmo na velhice, quando já tiverem cabelos grisalhos, sou eu aquele que os susterá. Eu os fiz e eu os levarei; eu os susterei e os salvarei.",
+        "text_en": "Even to your old age and gray hairs I am he, I am he who will sustain you. I have made you and I will carry you; I will sustain you and I will rescue you."
+      },
+      {
+        "verse": "Salmos 92:14",
+        "text_pt": "Na velhice ainda darão fruto, permanecerão viçosos e verdejantes.",
+        "text_en": "They will still bear fruit in old age, they will stay fresh and green."
+      }
+    ],
+    "bullying": [
+      {
+        "verse": "Salmos 3:3",
+        "text_pt": "Mas tu, Senhor, és um escudo que me protege; és a minha glória e aquele que me faz levantar a cabeça.",
+        "text_en": "But you, Lord, are a shield around me, my glory, the One who lifts my head high."
+      },
+      {
+        "verse": "Romanos 12:19",
+        "text_pt": "Não se vinguem, meus amados, mas deixem com Deus a ira, pois está escrito: 'Minha é a vingança; eu retribuirei', diz o Senhor.",
+        "text_en": "Do not take revenge, my dear friends, but leave room for God's wrath, for it is written: 'It is mine to avenge; I will repay,' says the Lord."
+      }
+    ],
+    "autoestima": [
+      {
+        "verse": "Salmos 139:14",
+        "text_pt": "Eu te louvo porque me fizeste de modo especial e admirável. Tuas obras são maravilhosas! Disto tenho plena certeza.",
+        "text_en": "I praise you because I am fearfully and wonderfully made; your works are wonderful, I know that full well."
+      },
+      {
+        "verse": "Jeremias 1:5",
+        "text_pt": "Antes de formá-lo no ventre eu o escolhi; antes de você nascer, eu o separei e o designei profeta às nações.",
+        "text_en": "Before I formed you in the womb I knew you, before you were born I set you apart; I appointed you as a prophet to the nations."
+      }
+    ],
+    "propósito": [
+      {
+        "verse": "Efésios 2:10",
+        "text_pt": "Porque somos criação de Deus realizada em Cristo Jesus para fazermos boas obras, as quais Deus preparou antes para nós as praticarmos.",
+        "text_en": "For we are God's handiwork, created in Christ Jesus to do good works, which God prepared in advance for us to do."
+      },
+      {
+        "verse": "Romanos 8:29",
+        "text_pt": "Pois aqueles que de antemão conheceu, também os predestinou para serem conformes à imagem de seu Filho, a fim de que ele seja o primogênito entre muitos irmãos.",
+        "text_en": "For those God foreknew he also predestined to be conformed to the image of his Son, that he might be the firstborn among many brothers and sisters."
+      }
+    ],
+    "traição": [
+      {
+        "verse": "Salmos 55:12-14",
+        "text_pt": "Se fosse um inimigo que me insultasse, eu poderia suportar; se fosse um adversário que se exaltasse contra mim, eu poderia esconder-me dele. Mas é você, meu igual, meu companheiro, meu amigo íntimo! Como era boa a nossa comunhão! Andávamos juntos com a multidão na casa de Deus.",
+        "text_en": "If an enemy were insulting me, I could endure it; if a foe were rising against me, I could hide. But it is you, a man like myself, my companion, my close friend, with whom I once enjoyed sweet fellowship at the house of God, as we walked about among the worshipers."
+      },
+      {
+        "verse": "Provérbios 17:17",
+        "text_pt": "O amigo ama em todos os momentos; é um irmão na adversidade.",
+        "text_en": "A friend loves at all times, and a brother is born for a time of adversity."
+      }
+    ],
+    "culpa": [
+      {
+        "verse": "Romanos 8:1",
+        "text_pt": "Portanto, agora já não há condenação para os que estão em Cristo Jesus.",
+        "text_en": "Therefore, there is now no condemnation for those who are in Christ Jesus."
+      },
+      {
+        "verse": "Isaías 43:25",
+        "text_pt": "Eu, eu mesmo, sou aquele que apaga as suas transgressões, por amor de mim, e que não se lembra mais dos seus pecados.",
+        "text_en": "I, even I, am he who blots out your transgressions, for my own sake, and remembers your sins no more."
+      }
+    ],
+    "injustica": [
+      {
+        "verse": "Salmos 37:28",
+        "text_pt": "Pois o Senhor ama a justiça e não abandona os seus fiéis. Eles serão protegidos para sempre, mas a descendência dos ímpios será eliminada.",
+        "text_en": "For the Lord loves the just and will not forsake his faithful ones. Wrongdoers will be completely destroyed; the offspring of the wicked will perish."
+      },
+      {
+        "verse": "Isaías 54:17",
+        "text_pt": "Nenhuma arma forjada contra você prevalecerá, e você refutará toda língua que a acusar. Esta é a herança dos servos do Senhor, e esta é a defesa que eu lhes dou, declara o Senhor.",
+        "text_en": "No weapon forged against you will prevail, and you will refute every tongue that accuses you. This is the heritage of the servants of the Lord, and this is their vindication from me, declares the Lord."
+      }
+    ],
+    "burnout": [
+      {
+        "verse": "Mateus 11:28",
+        "text_pt": "Venham a mim, todos os que estão cansados e sobrecarregados, e eu lhes darei descanso.",
+        "text_en": "Come to me, all you who are weary and burdened, and I will give you rest."
+      },
+      {
+        "verse": "Salmos 23:2-3",
+        "text_pt": "Em verdes pastagens me faz repousar e me conduz beside águas tranquilas; restaura a minha alma.",
+        "text_en": "He makes me lie down in green pastures, he leads me beside quiet waters, he refreshes my soul."
       }
     ]
   },
