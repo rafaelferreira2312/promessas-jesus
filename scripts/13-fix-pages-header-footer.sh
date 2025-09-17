@@ -1,3 +1,42 @@
+#!/bin/bash
+
+# Script 13: Corrigir Header e Footer das Páginas Timeline
+# Projeto: Portal Promessas de Jesus
+# Autor: Vancouver Tech
+# Data: $(date +%Y-%m-%d)
+
+echo "🔧 CORRIGINDO HEADER/FOOTER DAS PÁGINAS TIMELINE..."
+echo "================================================="
+
+# Verificar se estamos no diretório correto
+if [ ! -f "index.html" ]; then
+    echo "❌ ERRO: Execute o script na pasta raiz do projeto!"
+    exit 1
+fi
+
+# Verificar se as páginas existem
+if [ ! -d "pages/timeline/antigo-testamento" ] || [ ! -d "pages/timeline/novo-testamento" ]; then
+    echo "❌ ERRO: Execute primeiro o script 11b-timeline-details.sh"
+    exit 1
+fi
+
+echo "✅ Páginas detectadas. Corrigindo header/footer..."
+
+# Backup das páginas
+echo "💾 Criando backup das páginas..."
+cp -r pages/timeline/ pages/timeline-backup-$(date +%Y%m%d_%H%M%S)/ 2>/dev/null
+
+# Extrair header exato do index.html
+echo "📤 Extraindo header do index.html..."
+sed -n '/<header class="header"/,/<\/header>/p' index.html > /tmp/header_extract.html
+
+# Extrair footer exato do index.html
+echo "📥 Extraindo footer do index.html..."
+sed -n '/<footer class="footer"/,/<\/footer>/p' index.html > /tmp/footer_extract.html
+
+# Corrigir página do Antigo Testamento
+echo "📜 Corrigindo página do Antigo Testamento..."
+cat > pages/timeline/antigo-testamento/index.html << 'EOF'
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -80,55 +119,14 @@
 </head>
 
 <body class="loading">
-    <!-- Header idêntico ao index.html -->
-    <header class="header" role="banner">
-        <nav class="nav" role="navigation" aria-label="Navegação principal">
-            <div class="nav__container">
-                <!-- Logo Sagrado -->
-                <div class="nav__logo">
-                    <svg class="logo-icon" width="45" height="45" viewBox="0 0 45 45" aria-label="Jesus é o Pão da Vida">
-                        <defs>
-                            <linearGradient id="crossGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-                                <stop offset="0%" style="stop-color:#d4af37;stop-opacity:1" />
-                                <stop offset="50%" style="stop-color:#f4d03f;stop-opacity:1" />
-                                <stop offset="100%" style="stop-color:#b7950b;stop-opacity:1" />
-                            </linearGradient>
-                        </defs>
-                        <circle cx="22.5" cy="22.5" r="21" stroke="url(#crossGradient)" stroke-width="3" fill="none" opacity="0.8"/>
-                        <rect x="20" y="8" width="5" height="29" rx="2.5" fill="url(#crossGradient)"/>
-                        <rect x="8" y="20" width="29" height="5" rx="2.5" fill="url(#crossGradient)"/>
-                        <circle cx="22.5" cy="22.5" r="3" fill="url(#crossGradient)" opacity="0.6"/>
-                    </svg>
-                    <span class="logo-text" data-i18n="nav.home">Jesus é o Pão da Vida</span>
-                </div>
+EOF
 
-                <!-- Controles -->
-                <div class="nav__controls">
-                    <select class="lang-switch" id="langSwitch" aria-label="Escolher idioma">
-                        <option value="pt">🇧🇷 PT</option>
-                        <option value="en">🇺🇸 EN</option>
-                    </select>
-                    
-                    <button class="nav__toggle" id="navToggle" aria-label="Menu" aria-expanded="false">
-                        <span class="nav__toggle-line"></span>
-                        <span class="nav__toggle-line"></span>
-                        <span class="nav__toggle-line"></span>
-                    </button>
-                </div>
+# Inserir header extraído do index.html
+echo "    <!-- Header idêntico ao index.html -->" >> pages/timeline/antigo-testamento/index.html
+cat /tmp/header_extract.html >> pages/timeline/antigo-testamento/index.html
 
-                <!-- Menu Principal -->
-                <ul class="nav__menu" id="navMenu">
-                    <li><a href="#home" class="nav__link" data-i18n="nav.home">Início</a></li>
-                    <li><a href="#promises" class="nav__link" data-i18n="nav.promises">Promessas</a></li>
-                    <li><a href="#timeline" class="nav__link" data-i18n="nav.timeline">Linha do Tempo</a></li>
-                    <li><a href="#chat" class="nav__link" data-i18n="nav.chat">Chat</a></li>
-                    <li><a href="#quiz" class="nav__link" data-i18n="nav.quiz">Quiz</a></li>
-                    <li><a href="#resources" class="nav__link" data-i18n="nav.resources">Recursos</a></li>
-                    <li><a href="#blog" class="nav__link" data-i18n="nav.blog">Blog</a></li>
-                </ul>
-            </div>
-        </nav>
-    </header>
+# Continuar com o conteúdo da página
+cat >> pages/timeline/antigo-testamento/index.html << 'EOF'
 
     <!-- Breadcrumb Navigation -->
     <nav class="nav-breadcrumb">
@@ -223,56 +221,14 @@
         </div>
     </main>
 
-    <!-- Footer idêntico ao index.html -->
-    <footer class="footer" role="contentinfo">
-        <div class="container">
-            <div class="footer__content">
-                <div class="footer__brand">
-                    <div class="footer__logo">
-                        <svg width="40" height="40" viewBox="0 0 40 40">
-                            <rect x="18" y="8" width="4" height="24" rx="2" fill="currentColor"/>
-                            <rect x="10" y="16" width="20" height="4" rx="2" fill="currentColor"/>
-                        </svg>
-                        <span>Jesus é o Pão da Vida</span>
-                    </div>
-                    <p class="footer__tagline">
-                        "Compartilhando o amor de Cristo através de Suas promessas eternas"
-                    </p>
-                </div>
+EOF
 
-                <div class="footer__links">
-                    <div class="footer__column">
-                        <h3>Links Úteis</h3>
-                        <ul>
-                            <li><a href="#promises">Promessas</a></li>
-                            <li><a href="#timeline">Linha do Tempo</a></li>
-                            <li><a href="#chat">Chat Espiritual</a></li>
-                            <li><a href="#quiz">Quiz Bíblico</a></li>
-                        </ul>
-                    </div>
-                    
-                    <div class="footer__column">
-                        <h3>Recursos</h3>
-                        <ul>
-                            <li><a href="#resources">Livros Cristãos</a></li>
-                            <li><a href="#resources">Músicas</a></li>
-                            <li><a href="#resources">Filmes</a></li>
-                            <li><a href="#blog">Blog</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+# Inserir footer extraído do index.html
+echo "    <!-- Footer idêntico ao index.html -->" >> pages/timeline/antigo-testamento/index.html
+cat /tmp/footer_extract.html >> pages/timeline/antigo-testamento/index.html
 
-            <div class="footer__bottom">
-                <p>&copy; 2025 Jesus é o Pão da Vida. Feito com ❤️ para a glória de Deus.</p>
-                <p>
-                    <a href="https://promessasdejesus.vancouvertec.com.br" target="_blank" rel="noopener">
-                        promessasdejesus.vancouvertec.com.br
-                    </a>
-                </p>
-            </div>
-        </div>
-    </footer>
+# Finalizar página AT
+cat >> pages/timeline/antigo-testamento/index.html << 'EOF'
 
     <!-- Scripts idênticos ao index.html -->
     <script src="../../../js/i18n/pt.js"></script>
@@ -288,3 +244,19 @@
     </script>
 </body>
 </html>
+EOF
+
+echo "✅ SCRIPT 13-fix-pages-header-footer.sh PARTE 1 CONCLUÍDO!"
+echo ""
+echo "📋 ANTIGO TESTAMENTO CORRIGIDO:"
+echo "   ✅ Header extraído e aplicado do index.html original"
+echo "   ✅ Footer extraído e aplicado do index.html original"
+echo "   ✅ Breadcrumb navigation adicionado"
+echo "   ✅ CSS e JavaScript idênticos"
+echo "   ✅ Meta tags SEO otimizadas"
+echo ""
+echo "🌐 TESTE:"
+echo "   http://localhost:8005/pages/timeline/antigo-testamento/"
+echo ""
+echo "⏭️ PRÓXIMO PASSO:"
+echo "   Digite 'continuar' para corrigir página do Novo Testamento"
