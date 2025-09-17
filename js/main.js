@@ -815,3 +815,143 @@ App.prototype.updateHeroVisual = function() {
   `;
 };
 
+
+// ============================================
+// TIMELINE BÍBLICA INTEGRADA
+// ============================================
+
+/**
+ * Abrir detalhes do testamento
+ */
+function openTestamentDetails(testament) {
+    const testamentNames = {
+        'old': 'Antigo Testamento',
+        'new': 'Novo Testamento'
+    };
+    
+    // Por enquanto, mostrar modal (depois será página dedicada)
+    const modal = document.createElement('div');
+    modal.className = 'testament-modal';
+    modal.innerHTML = `
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>${testament === 'old' ? '📜' : '✝️'} ${testamentNames[testament]}</h2>
+                <button class="modal-close" onclick="this.parentElement.parentElement.parentElement.remove()">&times;</button>
+            </div>
+            <div class="modal-body">
+                <p>Timeline detalhada do ${testamentNames[testament]} será implementada em breve.</p>
+                <p>Incluirá:</p>
+                <ul>
+                    <li>🏺 Evidências arqueológicas</li>
+                    <li>📍 Localizações geográficas</li>
+                    <li>📚 Fatos marcantes</li>
+                    <li>🗓️ Cronologia detalhada</li>
+                </ul>
+            </div>
+        </div>
+    `;
+    
+    // Estilo do modal
+    const style = document.createElement('style');
+    style.textContent = `
+        .testament-modal {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.8);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+        }
+        .modal-content {
+            background: #1a1611;
+            border: 2px solid #d4af37;
+            border-radius: 15px;
+            max-width: 500px;
+            width: 90%;
+            color: #f5f1e8;
+        }
+        .modal-header {
+            padding: 1.5rem;
+            border-bottom: 1px solid rgba(212, 175, 55, 0.3);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .modal-header h2 {
+            margin: 0;
+            color: #d4af37;
+        }
+        .modal-close {
+            background: none;
+            border: none;
+            color: #d4af37;
+            font-size: 2rem;
+            cursor: pointer;
+            padding: 0;
+            width: 30px;
+            height: 30px;
+        }
+        .modal-body {
+            padding: 1.5rem;
+        }
+        .modal-body ul {
+            margin: 1rem 0;
+            padding-left: 1.5rem;
+        }
+        .modal-body li {
+            margin: 0.5rem 0;
+        }
+    `;
+    
+    document.head.appendChild(style);
+    document.body.appendChild(modal);
+    
+    // Fechar ao clicar fora
+    modal.addEventListener('click', (e) => {
+        if (e.target === modal) {
+            modal.remove();
+            style.remove();
+        }
+    });
+    
+    console.log(`Abrindo detalhes do ${testamentNames[testament]}`);
+}
+
+// Animações na timeline ao fazer scroll
+function initTimelineAnimations() {
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('animate-in');
+            }
+        });
+    }, { threshold: 0.2 });
+    
+    const timelineElements = document.querySelectorAll('.testament-section, .history-marker');
+    timelineElements.forEach(el => observer.observe(el));
+}
+
+// Inicializar quando DOM carregar
+document.addEventListener('DOMContentLoaded', () => {
+    if (document.querySelector('.timeline')) {
+        initTimelineAnimations();
+        console.log('✅ Timeline bíblica inicializada');
+    }
+});
+
+// CORREÇÃO ESPECÍFICA - Navegação direta dos botões
+function openTestamentDetails(testament) {
+    const urls = {
+        'old': 'pages/timeline/antigo-testamento/',
+        'new': 'pages/timeline/novo-testamento/'
+    };
+    
+    // Navegar diretamente para a página
+    if (urls[testament]) {
+        window.location.href = urls[testament];
+    }
+}

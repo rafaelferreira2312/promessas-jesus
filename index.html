@@ -97,6 +97,8 @@
     
     <!-- Stylesheets -->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/timeline-fix.css">
+    <link rel="stylesheet" href="css/timeline-cross-fix.css">
     
     <!-- Critical CSS Inline -->
     <style>
@@ -259,7 +261,7 @@
             </div>
         </section>
 
-        <!-- Timeline Section - Jornada Bíblica -->
+        <!-- Timeline Section - Linha do Tempo Integrada -->
         <section class="section timeline" id="timeline" aria-labelledby="timeline-title">
             <div class="container">
                 <header class="section__header">
@@ -268,18 +270,129 @@
                         Linha do Tempo <span class="text-gold">Bíblica</span>
                     </h2>
                     <p class="section__description">
-                        De Gênesis ao Apocalipse: uma jornada através da revelação divina
+                        De Gênesis ao Apocalipse: uma jornada através da revelação divina com evidências arqueológicas
                     </p>
                 </header>
 
-                <div class="timeline__container">
-                    <div class="timeline__line"></div>
-                    <div class="timeline__events" id="timelineEvents">
-                        <!-- Eventos serão gerados dinamicamente -->
+                <div class="timeline__visual">
+                    <div class="timeline__divisions">
+                        <!-- Antigo Testamento -->
+                        <div class="testament-section old-testament" data-testament="old">
+                            <div class="testament-header">
+                                <h3 class="testament-title">📜 Antigo Testamento</h3>
+                                <div class="testament-period">~2000 AC - 400 AC</div>
+                            </div>
+                            
+                            <div class="testament-stats">
+                                <div class="stat-item">
+                                    <span class="stat-number">39</span>
+                                    <span class="stat-label">Livros</span>
+                                </div>
+                                <div class="stat-item">
+                                    <span class="stat-number">1600</span>
+                                    <span class="stat-label">Anos</span>
+                                </div>
+                                <div class="stat-item">
+                                    <span class="stat-number">50+</span>
+                                    <span class="stat-label">Evidências</span>
+                                </div>
+                            </div>
+                            
+                            <div class="testament-books">
+                                <div class="book-item">Gênesis</div>
+                                <div class="book-item">Êxodo</div>
+                                <div class="book-item">Levítico</div>
+                                <div class="book-item">Números</div>
+                                <div class="book-item">Deuteronômio</div>
+                                <div class="book-item">Josué</div>
+                                <div class="book-item">Juízes</div>
+                                <div class="book-item">Reis</div>
+                                <div class="book-item">Salmos</div>
+                                <div class="book-item">+ 30 livros</div>
+                            </div>
+                            
+                            <button class="testament-cta" onclick="openTestamentDetails('old')">
+                                🏺 Explorar Antigo Testamento
+                            </button>
+                        </div>
+                        
+                        <!-- Divisor Central -->
+                        <div class="timeline__divider"></div>
+                        
+                        <!-- Novo Testamento -->
+                        <div class="testament-section new-testament" data-testament="new">
+                            <div class="testament-header">
+                                <h3 class="testament-title">✝️ Novo Testamento</h3>
+                                <div class="testament-period">6 AC - 100 DC</div>
+                            </div>
+                            
+                            <div class="testament-stats">
+                                <div class="stat-item">
+                                    <span class="stat-number">27</span>
+                                    <span class="stat-label">Livros</span>
+                                </div>
+                                <div class="stat-item">
+                                    <span class="stat-number">106</span>
+                                    <span class="stat-label">Anos</span>
+                                </div>
+                                <div class="stat-item">
+                                    <span class="stat-number">50+</span>
+                                    <span class="stat-label">Evidências</span>
+                                </div>
+                            </div>
+                            
+                            <div class="testament-books">
+                                <div class="book-item">Mateus</div>
+                                <div class="book-item">Marcos</div>
+                                <div class="book-item">Lucas</div>
+                                <div class="book-item">João</div>
+                                <div class="book-item">Atos</div>
+                                <div class="book-item">Romanos</div>
+                                <div class="book-item">Coríntios</div>
+                                <div class="book-item">Efésios</div>
+                                <div class="book-item">Apocalipse</div>
+                                <div class="book-item">+ 18 livros</div>
+                            </div>
+                            
+                            <button class="testament-cta" onclick="openTestamentDetails('new')">
+                                ⛪ Explorar Novo Testamento
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Linha histórica visual -->
+                <div class="timeline__history">
+                    <h3 style="text-align: center; color: #d4af37; margin-bottom: 2rem;">Cronologia Histórica</h3>
+                    <div class="history-line">
+                        <div class="history-markers">
+                            <div class="history-marker">
+                                <div class="marker-label">Criação<br>~2000+ AC</div>
+                            </div>
+                            <div class="history-marker">
+                                <div class="marker-label">Abraão<br>~2000 AC</div>
+                            </div>
+                            <div class="history-marker">
+                                <div class="marker-label">Êxodo<br>~1280 AC</div>
+                            </div>
+                            <div class="history-marker">
+                                <div class="marker-label">Reino Unido<br>~1000 AC</div>
+                            </div>
+                            <div class="history-marker">
+                                <div class="marker-label">Cativeiro<br>~586 AC</div>
+                            </div>
+                            <div class="history-marker">
+                                <div class="marker-label">Jesus<br>6 AC - 30 DC</div>
+                            </div>
+                            <div class="history-marker">
+                                <div class="marker-label">Igreja<br>30-100 DC</div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
+
 
         <!-- Chat Section - Chat Espiritual -->
         <section class="section chat" id="chat" aria-labelledby="chat-title">

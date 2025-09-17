@@ -1,0 +1,131 @@
+{
+  "categories": {
+    "familia": {
+      "name_pt": "Família",
+      "name_en": "Family", 
+      "icon": "👨‍👩‍👧‍👦",
+      "promises": [
+        {
+          "verse": "Josué 24:15",
+          "text_pt": "Eu e a minha casa serviremos ao Senhor.",
+          "text_en": "As for me and my household, we will serve the Lord."
+        },
+        {
+          "verse": "Salmos 127:3",
+          "text_pt": "Filhos são herança do Senhor, uma recompensa que ele dá.",
+          "text_en": "Children are a heritage from the Lord, offspring a reward from him."
+        },
+        {
+          "verse": "Efésios 6:2-3",
+          "text_pt": "Honra teu pai e tua mãe, para que tudo te corra bem e tenhas longa vida na terra.",
+          "text_en": "Honor your father and mother, so that it may go well with you and that you may enjoy long life on the earth."
+        }
+      ]
+    },
+    "conjugal": {
+      "name_pt": "Vida Conjugal",
+      "name_en": "Marriage",
+      "icon": "💑",
+      "promises": [
+        {
+          "verse": "Gênesis 2:24",
+          "text_pt": "Por essa razão, o homem deixará pai e mãe e se unirá à sua mulher, e eles se tornarão uma só carne.",
+          "text_en": "That is why a man leaves his father and mother and is united to his wife, and they become one flesh."
+        },
+        {
+          "verse": "1 Coríntios 13:4-7",
+          "text_pt": "O amor é paciente, o amor é bondoso. Não inveja, não se vangloria, não se orgulha. Tudo sofre, tudo crê, tudo espera, tudo suporta.",
+          "text_en": "Love is patient, love is kind. It does not envy, it does not boast, it is not proud. It always protects, always trusts, always hopes, always perseveres."
+        },
+        {
+          "verse": "Efésios 5:25",
+          "text_pt": "Maridos, amem suas mulheres, assim como Cristo amou a igreja e entregou-se a si mesmo por ela.",
+          "text_en": "Husbands, love your wives, just as Christ loved the church and gave himself up for her."
+        }
+      ]
+    },
+    "financeiro": {
+      "name_pt": "Vida Financeira",
+      "name_en": "Financial Life",
+      "icon": "💰",
+      "promises": [
+        {
+          "verse": "Filipenses 4:19",
+          "text_pt": "O meu Deus suprirá todas as vossas necessidades segundo as suas riquezas na glória em Cristo Jesus.",
+          "text_en": "And my God will meet all your needs according to the riches of his glory in Christ Jesus."
+        },
+        {
+          "verse": "Malaquias 3:10",
+          "text_pt": "Trazei todos os dízimos ao celeiro, para que haja mantimento na minha casa, e depois fazei prova de mim, diz o Senhor dos Exércitos, se eu não vos abrir as janelas do céu e não derramar sobre vós uma bênção tal, que dela vos advenha a maior abastança.",
+          "text_en": "Bring the whole tithe into the storehouse, that there may be food in my house. Test me in this, says the Lord Almighty, and see if I will not throw open the floodgates of heaven and pour out so much blessing that there will not be room enough to store it."
+        },
+        {
+          "verse": "Provérbios 22:7",
+          "text_pt": "O rico domina sobre os pobres, e o que toma emprestado é servo do que empresta.",
+          "text_en": "The rich rule over the poor, and the borrower is slave to the lender."
+        }
+      ]
+    },
+    "saude": {
+      "name_pt": "Saúde",
+      "name_en": "Health",
+      "icon": "🏥",
+      "promises": [
+        {
+          "verse": "Êxodo 15:26",
+          "text_pt": "Eu sou o Senhor que vos sara.",
+          "text_en": "I am the Lord, who heals you."
+        },
+        {
+          "verse": "Jeremias 30:17",
+          "text_pt": "Porque te restaurarei a saúde e curarei as tuas feridas, diz o Senhor.",
+          "text_en": "But I will restore you to health and heal your wounds, declares the Lord."
+        },
+        {
+          "verse": "3 João 1:2",
+          "text_pt": "Amado, desejo que te vá bem em todas as coisas e que tenhas saúde, assim como bem vai a tua alma.",
+          "text_en": "Dear friend, I pray that you may enjoy good health and that all may go well with you, even as your soul is getting along well."
+        }
+      ]
+    },
+    "trabalho": {
+      "name_pt": "Trabalho e Carreira",
+      "name_en": "Work and Career",
+      "icon": "💼",
+      "promises": [
+        {
+          "verse": "Colossenses 3:23",
+          "text_pt": "E, tudo quanto fizerdes, fazei-o de todo o coração, como ao Senhor e não aos homens.",
+          "text_en": "Whatever you do, work at it with all your heart, as working for the Lord, not for human masters."
+        },
+        {
+          "verse": "Provérbios 16:3",
+          "text_pt": "Confia ao Senhor as tuas obras, e teus pensamentos serão estabelecidos.",
+          "text_en": "Commit to the Lord whatever you do, and he will establish your plans."
+        },
+        {
+          "verse": "Salmos 90:17",
+          "text_pt": "E seja sobre nós a formosura do Senhor nosso Deus, e confirma sobre nós a obra das nossas mãos; sim, a obra das nossas mãos confirma.",
+          "text_en": "May the favor of the Lord our God rest on us; establish the work of our hands for us—yes, establish the work of our hands."
+        }
+      ]
+    },
+    "paz": {
+      "name_pt": "Paz e Tranquilidade",
+      "name_en": "Peace and Tranquility",
+      "icon": "🕊️",
+      "promises": [
+        {
+          "verse": "João 14:27",
+          "text_pt": "Deixo-vos a paz, a minha paz vos dou; não vo-la dou como o mundo a dá. Não se turbe o vosso coração, nem se atemorize.",
+          "text_en": "Peace I leave with you; my peace I give you. I do not give to you as the world gives. Do not let your hearts be troubled and do not be afraid."
+        },
+        {
+          "verse": "Filipenses 4:6-7",
+          "text_pt": "Não estejais inquietos por coisa alguma; antes, as vossas petições sejam em tudo conhecidas diante de Deus, pela oração e súplicas, com ação de graças. E a paz de Deus, que excede todo entendimento, guardará os vossos corações e os vossos sentimentos em Cristo Jesus.",
+          "text_en": "Do not be anxious about anything, but in every situation, by prayer and petition, with thanksgiving, present your requests to God. And the peace of God, which transcends all understanding, will guard your hearts and your minds in Christ Jesus."
+        }
+      ]
+    }
+  }
+}

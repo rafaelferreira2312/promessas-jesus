@@ -1,0 +1,16 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title_pt": "O Poder da Oração em Tempos Difíceis",
+      "title_en": "The Power of Prayer in Difficult Times",
+      "excerpt_pt": "Descubra como a oração pode transformar momentos de angústia em oportunidades de crescimento espiritual.",
+      "excerpt_en": "Discover how prayer can transform moments of anguish into opportunities for spiritual growth.",
+      "author": "Equipe Promessas de Jesus",
+      "date": "2025-09-11",
+      "image": "assets/images/blog-prayer.webp",
+      "slug": "poder-da-oracao",
+      "tags": ["oração", "fé", "esperança"]
+    }
+  ]
+}

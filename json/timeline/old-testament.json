@@ -1,0 +1,163 @@
+{
+  "testament": "old",
+  "title": "Antigo Testamento",
+  "subtitle": "A História do Povo de Deus",
+  "period": "~2000 AC - 400 AC",
+  "description": "Desde a criação do mundo até a preparação para a vinda do Messias",
+  "totalBooks": 39,
+  "categories": [
+    {
+      "name": "Lei (Torá)",
+      "books": ["Gênesis", "Êxodo", "Levítico", "Números", "Deuteronômio"],
+      "description": "Os cinco primeiros livros, escritos por Moisés"
+    },
+    {
+      "name": "Históricos",
+      "books": ["Josué", "Juízes", "Rute", "1 e 2 Samuel", "1 e 2 Reis", "1 e 2 Crônicas", "Esdras", "Neemias", "Ester"],
+      "description": "A história do povo de Israel"
+    },
+    {
+      "name": "Poéticos",
+      "books": ["Jó", "Salmos", "Provérbios", "Eclesiastes", "Cânticos"],
+      "description": "Literatura sapiencial e poética"
+    },
+    {
+      "name": "Profetas Maiores",
+      "books": ["Isaías", "Jeremias", "Lamentações", "Ezequiel", "Daniel"],
+      "description": "Profecias extensas sobre Israel e as nações"
+    },
+    {
+      "name": "Profetas Menores",
+      "books": ["Oseias", "Joel", "Amós", "Obadias", "Jonas", "Miquéias", "Naum", "Habacuque", "Sofonias", "Ageu", "Zacarias", "Malaquias"],
+      "description": "Doze livros proféticos menores em extensão"
+    }
+  ],
+  "keyBooks": [
+    {
+      "id": "genesis",
+      "name": "Gênesis",
+      "order": 1,
+      "period": "~1400 AC",
+      "author": "Moisés",
+      "chapters": 50,
+      "theme": "Começos - Criação, Queda, Promessa",
+      "keyVerse": {
+        "reference": "Gênesis 1:1",
+        "text": "No princípio, criou Deus os céus e a terra."
+      },
+      "summary": "O livro das origens: criação, queda do homem, promessa de redenção e história dos patriarcas.",
+      "keyEvents": [
+        {
+          "id": "creation",
+          "title": "Criação do Mundo",
+          "description": "Deus criou o universo em seis dias e descansou no sétimo",
+          "verse": "Gênesis 1:1-31",
+          "significance": "Estabelece Deus como Criador soberano de tudo",
+          "archaeological": {
+            "evidence": "Descobertas cosmológicas modernas corroboram início súbito do universo",
+            "description": "Evidências científicas do Big Bang confirmam criação ex nihilo",
+            "image": "creation-universe.webp",
+            "sources": ["NASA", "Observatório Hubble", "CERN"]
+          },
+          "coordinates": {"lat": 0, "lng": 0, "label": "Jardim do Éden (localização estimada)"}
+        },
+        {
+          "id": "fall",
+          "title": "Queda do Homem",
+          "description": "Adão e Eva desobedecem a Deus e trazem pecado ao mundo",
+          "verse": "Gênesis 3:1-24",
+          "significance": "Origem do pecado e necessidade de redenção",
+          "archaeological": {
+            "evidence": "Rios do Éden identificados na Mesopotâmia",
+            "description": "Tigre, Eufrates e outros rios mencionados localização geográfica real",
+            "image": "eden-rivers.webp",
+            "sources": ["Instituto Arqueológico", "Universidade de Oxford"]
+          },
+          "coordinates": {"lat": 33.2, "lng": 44.4, "label": "Mesopotâmia - Região do Éden"}
+        },
+        {
+          "id": "flood",
+          "title": "Dilúvio Universal",
+          "description": "Deus julgou a humanidade corrupta, salvando apenas Noé e sua família",
+          "verse": "Gênesis 6:5-9:17",
+          "significance": "Juízo divino e misericórdia - novo começoí para humanidade",
+          "archaeological": {
+            "evidence": "Evidências geológicas globais de grandes inundações",
+            "description": "Camadas sedimentares e fósseis marinhos em montanhas comprovam dilúvios catastróficos",
+            "image": "flood-evidence.webp",
+            "sources": ["Instituto de Pesquisa da Criação", "Museu de História Natural"]
+          },
+          "coordinates": {"lat": 39.5, "lng": 44.2, "label": "Monte Ararat - Descanso da Arca"}
+        },
+        {
+          "id": "babel",
+          "title": "Torre de Babel",
+          "description": "Humanidade tenta construir torre até o céu; Deus confunde as línguas",
+          "verse": "Gênesis 11:1-9",
+          "significance": "Origem das nações e línguas; orgulho humano vs soberania divina",
+          "archaeological": {
+            "evidence": "Zigurates mesopotâmicos confirmam arquitetura descrita",
+            "description": "Torres escalonadas como Torre de Babel encontradas em Ur, Babilônia",
+            "image": "babel-ziggurat.webp",
+            "sources": ["Museu Britânico", "Expedições em Babilônia"]
+          },
+          "coordinates": {"lat": 32.5, "lng": 44.4, "label": "Babilônia - Local da Torre"}
+        }
+      ],
+      "timeline": {
+        "start": "-2000",
+        "end": "-1800", 
+        "color": "#8B4513"
+      }
+    },
+    {
+      "id": "exodus",
+      "name": "Êxodo",
+      "order": 2,
+      "period": "~1280 AC",
+      "author": "Moisés",
+      "chapters": 40,
+      "theme": "Libertação - Escravidão ao Serviço de Deus",
+      "keyVerse": {
+        "reference": "Êxodo 14:13",
+        "text": "Não temais; ficai firmes e vede o livramento do SENHOR."
+      },
+      "summary": "A libertação miraculosa de Israel do Egito e o recebimento da Lei no Monte Sinai.",
+      "keyEvents": [
+        {
+          "id": "plagues",
+          "title": "Dez Pragas do Egito",
+          "description": "Deus demonstra Sua supremacia sobre os deuses egípcios através de dez pragas",
+          "verse": "Êxodo 7:14-12:30",
+          "significance": "Poder soberano de Deus sobre todas as nações e falsos deuses",
+          "archaeological": {
+            "evidence": "Papiro Ipuwer descreve calamidades similares às pragas bíblicas",
+            "description": "Documento egípcio antigo relata pragas: águas em sangue, trevas, morte dos primogênitos",
+            "image": "plagues-papyrus.webp",
+            "sources": ["Museu de Leiden", "Papiros Egípcios"]
+          },
+          "coordinates": {"lat": 30.0, "lng": 31.2, "label": "Egito - Terra das Pragas"}
+        },
+        {
+          "id": "red_sea",
+          "title": "Travessia do Mar Vermelho",
+          "description": "Deus abre o Mar Vermelho para Israel escapar do exército egípcio",
+          "verse": "Êxodo 14:13-31",
+          "significance": "Poder milagroso de Deus e libertação completa da escravidão",
+          "archaeological": {
+            "evidence": "Carros de guerra egípcios encontrados no fundo do mar",
+            "description": "Destroços de carruagens e ossos de cavalos descobertos no Mar Vermelho",
+            "image": "red-sea-crossing.webp",
+            "sources": ["Instituto Red Sea Crossing", "Arqueologia Submarina"]
+          },
+          "coordinates": {"lat": 28.0, "lng": 34.5, "label": "Mar Vermelho - Local da Travessia"}
+        }
+      ],
+      "timeline": {
+        "start": "-1300",
+        "end": "-1200",
+        "color": "#DC143C"
+      }
+    }
+  ]
+}

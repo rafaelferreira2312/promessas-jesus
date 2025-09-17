@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "title": "Linha do Tempo Bíblica Interativa",
+    "description": "Jornada cronológica através das Escrituras com evidências arqueológicas",
+    "version": "1.0.0",
+    "lastUpdated": "2025-01-15",
+    "totalBooks": 66,
+    "oldTestamentBooks": 39,
+    "newTestamentBooks": 27,
+    "timeSpan": "~2000 AC - 100 DC",
+    "languages": ["Hebraico", "Aramaico", "Grego"],
+    "manuscripts": "5800+ manuscritos do NT, 24000+ total"
+  },
+  "settings": {
+    "enableArchaeology": true,
+    "showDates": true,
+    "showVerses": true,
+    "defaultTestament": "old",
+    "animationDuration": 800,
+    "lazy loading": true,
+    "imageFormat": "webp"
+  },
+  "periods": {
+    "creation": "~2000+ AC",
+    "patriarchs": "~2000-1500 AC",
+    "exodus": "~1500-1400 AC",
+    "judges": "~1400-1050 AC", 
+    "united_kingdom": "~1050-930 AC",
+    "divided_kingdom": "~930-586 AC",
+    "exile": "~586-538 AC",
+    "restoration": "~538-400 AC",
+    "intertestamental": "~400 AC - 6 AC",
+    "jesus_ministry": "~6-30 DC",
+    "early_church": "~30-100 DC"
+  }
+}
