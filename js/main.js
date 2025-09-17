@@ -118,6 +118,7 @@ class BannerCarousel {
       dotsContainer.innerHTML = '';
       this.slides.forEach((_, index) => {
         const dot = document.createElement('div');
+        element.style.fontFamily = "Montserrat, sans-serif";
         dot.className = `banner-dot ${index === 0 ? 'active' : ''}`;
         dot.addEventListener('click', () => this.goToSlide(index));
         dotsContainer.appendChild(dot);
@@ -326,9 +327,11 @@ class SpiritualChat {
     if (!messagesContainer) return;
 
     const messageEl = document.createElement('div');
+        element.style.fontFamily = "Montserrat, sans-serif";
     messageEl.className = `chat__message chat__message--${message.sender}`;
     
     const avatar = document.createElement('div');
+        element.style.fontFamily = "Montserrat, sans-serif";
     avatar.className = 'chat__avatar';
     
     if (message.sender === 'bot') {
@@ -347,6 +350,7 @@ class SpiritualChat {
     }
 
     const content = document.createElement('div');
+        element.style.fontFamily = "Montserrat, sans-serif";
     content.className = 'chat__content';
     
     if (message.sender === 'bot' && message.metadata.verse) {
@@ -377,6 +381,7 @@ class SpiritualChat {
     if (!messagesContainer) return;
 
     const indicator = document.createElement('div');
+        element.style.fontFamily = "Montserrat, sans-serif";
     indicator.className = 'chat__message chat__message--bot typing-indicator';
     indicator.id = 'typingIndicator';
     
@@ -660,6 +665,7 @@ class App {
     container.innerHTML = '';
     promises.forEach((promise, index) => {
       const card = document.createElement('div');
+        element.style.fontFamily = "Montserrat, sans-serif";
       card.className = 'promise-card';
       
       const currentLang = CONFIG.currentLanguage;
@@ -701,6 +707,7 @@ class App {
 
   showMessage(message, type) {
     const toast = document.createElement('div');
+        element.style.fontFamily = "Montserrat, sans-serif";
     toast.className = `toast toast--${type}`;
     toast.style.cssText = `
       position: fixed;

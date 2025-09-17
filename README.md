@@ -89,6 +89,11 @@ Scripts de envio em `scripts/`
 0 8 * * * /path/to/scripts/send_random_verse.sh
 ```
 
+### Teste Localmente
+```bash
+ python3 -m http.server 8005
+ ```
+
 ## 🎨 Paleta de Cores
 - **Ouro primário:** #d4af37
 - **Ouro claro:** #f4d03f  
