@@ -1,0 +1,130 @@
+{
+  "categories": [
+    {
+      "id": "antigo_testamento",
+      "name": "Antigo Testamento",
+      "description": "Perguntas sobre os livros do Antigo Testamento",
+      "icon": "📜"
+    },
+    {
+      "id": "novo_testamento", 
+      "name": "Novo Testamento",
+      "description": "Perguntas sobre os livros do Novo Testamento",
+      "icon": "✝️"
+    },
+    {
+      "id": "vida_jesus",
+      "name": "Vida de Jesus",
+      "description": "Perguntas sobre a vida e ministério de Jesus Cristo",
+      "icon": "👑"
+    },
+    {
+      "id": "sabedoria",
+      "name": "Livros de Sabedoria",
+      "description": "Salmos, Provérbios, Eclesiastes",
+      "icon": "💡"
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "category": "antigo_testamento",
+      "question": "Quantos dias Deus levou para criar o mundo?",
+      "options": ["5 dias", "6 dias", "7 dias", "8 dias"],
+      "correct": 1,
+      "explanation": "Gênesis 1 nos conta que Deus criou o mundo em 6 dias e descansou no 7º dia.",
+      "verse": "Gênesis 2:2",
+      "difficulty": "easy"
+    },
+    {
+      "id": 2,
+      "category": "antigo_testamento",
+      "question": "Quem foi o primeiro homem criado por Deus?",
+      "options": ["Abel", "Caim", "Adão", "Noé"],
+      "correct": 2,
+      "explanation": "Adão foi o primeiro homem criado por Deus do pó da terra.",
+      "verse": "Gênesis 2:7",
+      "difficulty": "easy"
+    },
+    {
+      "id": 3,
+      "category": "novo_testamento",
+      "question": "Em qual cidade Jesus nasceu?",
+      "options": ["Nazaré", "Jerusalém", "Belém", "Cafarnaum"],
+      "correct": 2,
+      "explanation": "Jesus nasceu em Belém, cumprindo a profecia de Miqueias.",
+      "verse": "Mateus 2:1",
+      "difficulty": "easy"
+    },
+    {
+      "id": 4,
+      "category": "vida_jesus",
+      "question": "Quantos discípulos Jesus escolheu?",
+      "options": ["10", "11", "12", "13"],
+      "correct": 2,
+      "explanation": "Jesus escolheu 12 discípulos para serem seus apóstolos.",
+      "verse": "Marcos 3:14",
+      "difficulty": "easy"
+    },
+    {
+      "id": 5,
+      "category": "novo_testamento",
+      "question": "Qual é o versículo mais famoso da Bíblia?",
+      "options": ["João 3:16", "Salmos 23:1", "Gênesis 1:1", "Apocalipse 22:21"],
+      "correct": 0,
+      "explanation": "João 3:16 é conhecido como o 'Evangelho em miniatura'.",
+      "verse": "João 3:16",
+      "difficulty": "easy"
+    },
+    {
+      "id": 6,
+      "category": "antigo_testamento",
+      "question": "Quem conduziu o povo de Israel para fora do Egito?",
+      "options": ["Abraão", "Moisés", "Josué", "Davi"],
+      "correct": 1,
+      "explanation": "Moisés foi escolhido por Deus para libertar Israel da escravidão no Egito.",
+      "verse": "Êxodo 3:10",
+      "difficulty": "easy"
+    },
+    {
+      "id": 7,
+      "category": "sabedoria",
+      "question": "Complete: 'O Senhor é o meu pastor...'",
+      "options": ["...nada me faltará", "...me guiará", "...me protegerá", "...me abençoará"],
+      "correct": 0,
+      "explanation": "Este é o início do Salmo 23, um dos mais conhecidos da Bíblia.",
+      "verse": "Salmos 23:1",
+      "difficulty": "easy"
+    },
+    {
+      "id": 8,
+      "category": "vida_jesus",
+      "question": "Em quantos dias Jesus ressuscitou?",
+      "options": ["No mesmo dia", "No segundo dia", "No terceiro dia", "No quarto dia"],
+      "correct": 2,
+      "explanation": "Jesus ressuscitou no terceiro dia, conforme as Escrituras.",
+      "verse": "1 Coríntios 15:4",
+      "difficulty": "easy"
+    },
+    {
+      "id": 9,
+      "category": "antigo_testamento",
+      "question": "Quantos livros tem o Antigo Testamento?",
+      "options": ["36", "37", "38", "39"],
+      "correct": 3,
+      "explanation": "O Antigo Testamento possui 39 livros no cânon protestante.",
+      "verse": "",
+      "difficulty": "medium"
+    },
+    {
+      "id": 10,
+      "category": "novo_testamento",
+      "question": "Quantos livros tem o Novo Testamento?",
+      "options": ["25", "26", "27", "28"],
+      "correct": 2,
+      "explanation": "O Novo Testamento possui 27 livros.",
+      "verse": "",
+      "difficulty": "medium"
+    }
+  ]
+}

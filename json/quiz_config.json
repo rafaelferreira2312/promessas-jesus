@@ -1,0 +1,35 @@
+{
+  "settings": {
+    "questions_per_quiz": 5,
+    "time_per_question": 30,
+    "points": {
+      "easy": 10,
+      "medium": 20,
+      "hard": 30,
+      "bonus_speed": 5
+    },
+    "achievements": [
+      {
+        "id": "primeiro_quiz",
+        "name": "Primeiro Quiz",
+        "description": "Complete seu primeiro quiz",
+        "icon": "🌟",
+        "requirement": "complete_quiz"
+      },
+      {
+        "id": "pontuacao_perfeita",
+        "name": "Pontuação Perfeita", 
+        "description": "Acerte todas as perguntas",
+        "icon": "🏆",
+        "requirement": "perfect_score"
+      },
+      {
+        "id": "estudioso",
+        "name": "Estudioso das Escrituras",
+        "description": "Complete 10 quizzes",
+        "icon": "📚",
+        "requirement": "complete_10_quizzes"
+      }
+    ]
+  }
+}
